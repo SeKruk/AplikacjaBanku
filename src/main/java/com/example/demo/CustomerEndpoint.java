@@ -16,7 +16,7 @@ private CustomerRepository customerRepository;
 public class CustomerEndpoint {
     private CustomerRepository customerRepository;
 
-    //GetMapping zwraca wszystkich klientów po ścieżce Customer
+    //GetMapping zwraca wszystkiich klientów po ścieżce Customer
     @GetMapping("/Customer")
     public List<Customer> getAllCustomer() {
         return customerRepository.findAll();
